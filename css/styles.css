@@ -51,6 +51,11 @@ ol {
   margin: 0;
   padding: 0;
 }
+
+.list {
+  list-style: none;
+}
+
 .container {
   margin-left: auto;
   margin: auto;
@@ -58,9 +63,7 @@ ol {
   width: 1200px;
   /* outline: 2px solid tomato; */
 }
-.list {
-  list-style: none;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -178,6 +181,7 @@ ol {
 .auth-nav .link:focus {
   color: var(--primary-accent-color);
 }
+/* end header */
 /*hero*/
 .hero {
   padding-top: 200px;
@@ -236,6 +240,8 @@ ol {
     color: var(--primary-accent-color);
     background-color: var(--primary-white-color);
 } */
+/* end hero */
+/*features*/
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -248,7 +254,7 @@ ol {
   line-height: 1.17;
   text-align: center;
 }
-/*features*/
+
 .features-section {
   padding-top: 94px;
 }
@@ -314,6 +320,7 @@ ol {
   font-size: 14px;
   line-height: 1.71;
 }
+/* end features */
 /* what we do */
 .what-we-do-title {
   color: var(--secondary-text-color);
@@ -350,6 +357,7 @@ ol {
   padding-bottom: 27px;
   background-color: rgba(47, 48, 58, 0.8);
 }
+/* end what we do */
 /*our team*/
 .our-team {
   background-color: var(--portfolio-button-bgc);
@@ -428,6 +436,7 @@ ol {
   color: var(--primary-white-color);
   fill: currentColor;
 }
+/* end our team */
 /* regular customers */
 .customers-title {
   color: var(--secondary-text-color);
@@ -472,7 +481,7 @@ ol {
   color: var(--primary-accent-color);
   fill: currentColor;
 }
-
+/* end regular customers */
 /*footer*/
 .footer {
   padding-top: 60px;
@@ -622,6 +631,7 @@ ol {
   display: inline-block;
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z' fill='white'/%3E%3C/svg%3E%0A");
 } */
+/* end footer */
 /*portfolio*/
 .portfolio-header {
   font-weight: 900;
@@ -741,6 +751,8 @@ ol {
   line-height: 1.88;
   text-decoration: none;
 }
+/* end portfolio */
+/* backdrop */
 .backdrop {
   position: fixed;
   left: 0px;
@@ -759,7 +771,8 @@ ol {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.1);
 }
-
+/*  end backdrop */
+/* modal */
 .modal {
   position: absolute;
   top: 50%;
@@ -955,3 +968,4 @@ ol {
   border: transparent;
   cursor: pointer;
 }
+/* end modal */
